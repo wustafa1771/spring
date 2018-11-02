@@ -10,7 +10,7 @@ public class HelloSpringApp {
 		//retrive bean 
 		Coach theCoach = context.getBean("myCoach",Coach.class);
 		CricketCoach ccoach = context.getBean("myCricketCoach", CricketCoach.class);
-		System.out.println("development branch deneme afasfasfds");
+		System.out.println("development branch master");
 		context.close();
 	}
 
