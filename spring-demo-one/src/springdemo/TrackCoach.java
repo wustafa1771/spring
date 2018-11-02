@@ -3,6 +3,7 @@ package springdemo;
 public class TrackCoach implements Coach {
 
 	private FortuneService fortuneService;
+	private int kemal;
 	
 	public TrackCoach(FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
